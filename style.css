@@ -1,9 +1,47 @@
 body {
-    width: 1440px;
+    height: 100%;
     margin:0;
     background-color: #663399;
     background-image: url(images/bg-desktop.svg);
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+    
  }
 
+header {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 6% 5% 6% 5%;
+}
+#message-box {
+    margin-left: 4%;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: "400";
+    color: white;
+    font-size: 37px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: "400";
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+button {
+    padding: 10px 50px; 
+    border-radius: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: "400";
+    font-size: 16px;
+    color: #663399;
+}
